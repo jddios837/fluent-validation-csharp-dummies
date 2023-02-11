@@ -1,0 +1,17 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8264bbc2_002D76b3_002D49aa_002D982e_002Def6597b3764d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Should_Have_Error_Empty_Name" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Have_Error_Empty_Name&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Have_Error_MaxLenght_Name&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Not_Have_Error_MaxLenght_Name&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Not_Have_Error_Enum_EmployeeRole&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Have_Error_MaximumLength_Name_When_Role_Is_Null&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Not_Have_Error_MaximumLength_Name_When_Role_Is_Null&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Have_Error_LessThanOrEqualTo_MaxSalary_When_Role_Is_Null&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Not_Have_Error_LessThanOrEqualTo_MaxSalary_When_Role_Is_Null&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Shoul_Have_Error_NotNull_When_Address_Is_Null&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Shoul_Have_Error_NotNull_When_Address_Is_Not_Null&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Have_Error_NotNull_When_Address_Is_Not_Null&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Have_Error_MaxLenght_Address_Street_When_Role_Is_Admin&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

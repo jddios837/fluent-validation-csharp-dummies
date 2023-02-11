@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation.Dummies.Base", "FluentValidation.Dummies.Base\FluentValidation.Dummies.Base.csproj", "{FBC20751-8DC0-494B-AB30-278590555833}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation.Dummies.Validation", "FluentValidation.Dummies.Validation\FluentValidation.Dummies.Validation.csproj", "{C7BAA5AE-2F48-4A4F-B85A-259F25407A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation.Dummies.Tests", "FluentValidation.Dummies.Tests\FluentValidation.Dummies.Tests.csproj", "{184DD067-C361-4E16-80E7-185A204A16BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation.Dummies.API", "FluentValidation.Dummies.API\FluentValidation.Dummies.API.csproj", "{C7B44418-CCAF-4AE5-BF28-66324D6B92C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{FBC20751-8DC0-494B-AB30-278590555833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBC20751-8DC0-494B-AB30-278590555833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBC20751-8DC0-494B-AB30-278590555833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7BAA5AE-2F48-4A4F-B85A-259F25407A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7BAA5AE-2F48-4A4F-B85A-259F25407A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7BAA5AE-2F48-4A4F-B85A-259F25407A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7BAA5AE-2F48-4A4F-B85A-259F25407A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184DD067-C361-4E16-80E7-185A204A16BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184DD067-C361-4E16-80E7-185A204A16BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184DD067-C361-4E16-80E7-185A204A16BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184DD067-C361-4E16-80E7-185A204A16BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B44418-CCAF-4AE5-BF28-66324D6B92C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B44418-CCAF-4AE5-BF28-66324D6B92C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B44418-CCAF-4AE5-BF28-66324D6B92C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B44418-CCAF-4AE5-BF28-66324D6B92C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
