@@ -7,6 +7,9 @@ public class EmployeeValidator : AbstractValidator<Employee>
 {
     public EmployeeValidator()
     {
+        // RuleLevelCascadeMode = CascadeMode.Stop; // Will return one VALIDATION per rule (Avoid add .Cascade(CascadeMode.Stop) in each Rule)
+        // ClassLevelCascadeMode = CascadeMode.Stop; // Will only return one error VALIDATION per class
+        
         RuleFor(x => x.Name)
             .NotEmpty()
             .MaximumLength(50);
