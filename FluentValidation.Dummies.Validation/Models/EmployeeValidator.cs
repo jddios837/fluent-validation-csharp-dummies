@@ -11,12 +11,13 @@ public class EmployeeValidator : AbstractValidator<Employee>
         // ClassLevelCascadeMode = CascadeMode.Stop; // Will only return one error VALIDATION per class
         
         RuleFor(x => x.Name)
+            .Cascade(CascadeMode.Stop) // Return one VALIDATION per rule
             .NotEmpty()
             .MaximumLength(50);
 
         RuleFor(x => x.EmployeeRole)
             .IsInEnum()
-            .NotEmpty();
+            .NotNull();
 
         When(x => x.EmployeeRole == EmployeeType.NULL, () =>
         {
@@ -25,6 +26,10 @@ public class EmployeeValidator : AbstractValidator<Employee>
         });
 
         // If the child property is null, then the child validator will not be executed.
+        // Check this validator with this test Should_Have_Error_NotNull_When_Address_Is_Null
+        // RuleForEach(x => x.Addresses)
+        //     .SetValidator(new AddressValidator());
+        
         RuleForEach(x => x.Addresses)
             .NotNull()
             .SetValidator(new AddressValidator())
