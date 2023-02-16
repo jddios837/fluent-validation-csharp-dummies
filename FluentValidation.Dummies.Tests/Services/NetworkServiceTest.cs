@@ -17,7 +17,7 @@ public class NetworkServiceTest
         //Dependencies
         _dns = A.Fake<IDNS>();
         
-        // SUT
+        // SUT (System Under Test)
         _pingService = new NetworkService(_dns );
     }
 
