@@ -3,6 +3,7 @@ using FakeItEasy;
 using FluentAssertions;
 using FluentAssertions.Extensions;
 using FluentValidation.Dummies.Services;
+using FluentValidation.Dummies.Services.Accesors;
 using FluentValidation.Dummies.Services.DNS;
 
 namespace FluentValidation.Dummies.Tests.Services;
@@ -12,6 +13,8 @@ public class NetworkServiceTest
     private readonly NetworkService _pingService;
     private readonly IDNS _dns;
 
+    private ClientService _clientService = new ClientService();
+
     public NetworkServiceTest()
     {
         //Dependencies
@@ -19,6 +22,7 @@ public class NetworkServiceTest
         
         // SUT (System Under Test)
         _pingService = new NetworkService(_dns );
+        
     }
 
     [Fact]
@@ -106,4 +110,5 @@ public class NetworkServiceTest
         result.Should().ContainEquivalentOf(expected);
         result.Should().Contain(x => x.DontFragment);
     }
+    
 }

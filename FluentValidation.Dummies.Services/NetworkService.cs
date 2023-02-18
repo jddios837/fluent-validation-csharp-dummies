@@ -1,10 +1,12 @@
 ﻿using System.Net.NetworkInformation;
+using FluentValidation.Dummies.Services.Accesors;
 using FluentValidation.Dummies.Services.DNS;
 
 namespace FluentValidation.Dummies.Services;
 
 public class NetworkService
 {
+    private ClientService client = new ClientService();
     private readonly IDNS _dns;
 
     public NetworkService(IDNS dns)
