@@ -1,6 +1,7 @@
 ﻿using System.Net.NetworkInformation;
 using FluentValidation.Dummies.Services.Accesors;
 using FluentValidation.Dummies.Services.DNS;
+using ExtensionMethods;
 
 namespace FluentValidation.Dummies.Services;
 
@@ -18,6 +19,11 @@ public class NetworkService
     {
         var dnsSuccess = _dns.SendDNS();
         return dnsSuccess ? "Success: Ping Send!" : "Failed: Ping not Sent!";
+    }
+
+    public int CountSendMenssage(string s)
+    {
+        return s.WordCount();
     }
 
     public int PingTimeOut(int a, int b)

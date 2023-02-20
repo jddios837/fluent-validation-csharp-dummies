@@ -21,5 +21,9 @@
     &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Services.NetworkServiceTest.NetworkService_GetPingOptions_ReturnIEnumerableObject&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Models.EmployeeValidatorTest.Should_Have_Error_NotNull_When_Address_Is_Null&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Services.NetworkServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Services.FarmServiceTest.Animal_Is_Cat&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Services.FarmServiceTest.Animal_Is_Cat_Sleeping&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Services.FarmServiceTest.Animal_Is_Cat_GoingBathroom&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::184DD067-C361-4E16-80E7-185A204A16BB::net7.0::FluentValidation.Dummies.Tests.Services.FarmServiceTest.CheckFactory_Valid&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

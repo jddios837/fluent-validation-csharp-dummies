@@ -33,13 +33,16 @@ public class NetworkServiceTest
             .Returns(true);
         // var pingService = new NetworkService(); // this is SUT (System Under Test) We could move to repository
         
+        
         // Act
         var result = _pingService.SendPing();
+        int wordCountExpected = _pingService.CountSendMenssage(result);
 
         // Assert
         result.Should().NotBeNullOrWhiteSpace();
         result.Should().Be("Success: Ping Send!");
         result.Should().Contain("Success", Exactly.Once());
+        wordCountExpected.Should().Be(wordCountExpected);
     }
 
     [Theory]
