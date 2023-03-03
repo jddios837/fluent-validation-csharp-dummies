@@ -17,6 +17,10 @@ public class EmployeeController : ControllerBase
     [HttpPost]
     public bool Get([FromBody] Employee employee)
     {
+        _logger.Log(LogLevel.Information,"Information Test {@TEST}", employee);
+        _logger.Log(LogLevel.Error,"Error Test {@TEST}", employee);
+        _logger.Log(LogLevel.Critical,"Critical Test {@TEST}", employee);
+        
         return true;
     }
 }
